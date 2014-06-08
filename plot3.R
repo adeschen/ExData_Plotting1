@@ -28,7 +28,7 @@ png(filename = "plot3.png",
 # Fix y limits to ensure that all 3 curves use lthe same limits
 plot(dataSubset$Date_Time, dataSubset$Sub_metering_1, type="l", 
      col=c("black"), ylim=c(0,38),
-     ylab="Global Active Power (kilowatts)", xlab="", main="")
+     ylab="Energy sub metering", xlab="", main="")
 
 par(new=T)
 
